@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Box</title>
+    <style>
+        .box{
+           width: 450px;
+           border: 2px solid black;
+           padding:  10px 10px;
+           margin: 20px;
+           display: inline-block;
+           
+        }
+        .title{
+            font-family: sans-serif;
+            font-weight: bolder;
+            text-transform: uppercase;
+        }
+        .content{
+            color: #000000aa;
+            text-align: justify;
+            /* text-indent: 35px; */
+        }
+        .box-solid{
+            background-color: #eee;
+            border-color: #eee;
+        }
+        .box-rounded{
+            border-radius: 10px;
+        }
+        .text-center{
+            text-align: center;
+        }
+        .text-center .content{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="box ">
+      
+        <h3 class="title">
+            This is Base Box
+        </h3>
+        <p class="content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ex dolor eligendi necessitatibus fugiat, voluptas quidem inventore voluptates minus deleniti iure reiciendis quod, quas officiis ipsa provident optio mollitia id.
+        </p>
+
+    </div>
+
+    <div class="box box-solid text-center">
+      
+        <h3 class="title">
+            This is Solid Box
+        </h3>
+        <p class="content ">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ex dolor eligendi necessitatibus fugiat, voluptas quidem inventore voluptates minus deleniti iure reiciendis quod, quas officiis ipsa provident optio mollitia id.
+        </p>
+
+    </div>
+
+    <div class="box box-rounded">
+      
+        <h3 class="title">
+            This is Rounded Box
+        </h3>
+        <p class="content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ex dolor eligendi necessitatibus fugiat, voluptas quidem inventore voluptates minus deleniti iure reiciendis quod, quas officiis ipsa provident optio mollitia id.
+        </p>
+
+    </div>
+</body>
+</html>
